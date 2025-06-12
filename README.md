@@ -5,7 +5,6 @@ Ce projet est un portfolio web créé pour présenter les compétences acquises 
 ## Structure du projet
 
 - `index.html` : Page d'accueil avec présentation et aperçu des compétences
-- `competences.html` : Page détaillée des compétences avec un design en zig-zag
 - `styles.css` : Fichier de style pour l'ensemble du site
 
 ## Fonctionnalités
