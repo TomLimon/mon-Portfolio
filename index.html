@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio - BUT</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="burger-menu">
+        <div class="burger-icon">
+            <i class="fas fa-bars"></i>
+        </div>
+        <nav class="side-menu">
+            <div class="close-menu">
+                <i class="fas fa-times"></i>
+            </div>
+            <ul>
+                <li><a href="#accueil">Accueil</a></li>
+                <li><a href="#presentation">À propos</a></li>
+                <li><a href="#parcours">Parcours</a></li>
+                <li><a href="#competences">Compétences</a></li>
+            </ul>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> 06 25 75 05 86</p>
+                <p><i class="fas fa-envelope"></i> tom.limon@edu.univ-fcomte.fr</p>
+            </div>
+        </nav>
+    </div>
+
+    <main>
+        <section id="accueil" class="hero">
+            <h1>Enchanté, je suis Tom</h1>
+            <p class="subtitle">Étudiant en BUT Informatique</p>
+        </section>
+
+        <section id="presentation" class="presentation">
+            <h2>À propos de moi</h2>
+            <div class="presentation-content">
+                <div class="profile-image">
+                    <img src="img/img1.jpg" alt="Photo de profil" class="profile-photo">
+                </div>
+                <div class="profile-text">
+                    <p>Passionné par l'informatique et le développement, je suis actuellement en première année de BUT Informatique. Ce portfolio présente mes compétences et réalisations acquises au cours de ma formation, notamment à travers divers projets concrets comme le développement d'un site e-commerce, la création d'un pauvocodeur en Java, ou encore la réalisation d'un site web pour présenter l'entreprise Deezer.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="parcours" class="parcours-section">
+            <h2>Mon Parcours</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-date">2024 - Maintenant</div>
+                    <div class="timeline-content">
+                        <h3>BUT Informatique</h3>
+                        <p>Formation en informatique avec des projets concrets :</p>
+                        <ul>
+                            <li>Développement d'un site e-commerce avec Python et SQL</li>
+                            <li>Création d'un pauvocodeur en Java</li>
+                            <li>Réalisation d'un site web pour présenter l'entreprise Deezer</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021 - 2024</div>
+                    <div class="timeline-content">
+                        <h3>Bac STI2D - SIN</h3>
+                        <p>Obtention du bac STI2D spécialité SIN avec mention très bien.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2021</div>
+                    <div class="timeline-content">
+                        <h3>Stage d'observation</h3>
+                        <p>Stage d'observation dans l'entreprise IT-Experience qui propose de larges services informatiques dont le développement web. Ce stage à éveillé en moi cette passion pour l'informatique.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="competences" class="competences-section">
+            <h2>Mes Compétences</h2>
+            
+            <div id="dev-web" class="competence-item left">
+                <div class="competence-content">
+                    <h3>Développement Web</h3>
+                    <p>Acquisition des bases en HTML et CSS pour la création de sites web responsifs et modernes. Dans le cadre d'un projet de groupe, j'ai participé au développement d'un site web présentant l'entreprise Deezer, ce qui m'a permis de :</p>
+                    <ul>
+                        <li>Travailler sur un projet structuré avec un cahier des charges détaillé définissant les pages requises (Histoire, À propos, Économie)</li>
+                        <li>Apprendre à structurer le contenu avec HTML5 en suivant les bonnes pratiques de sémantique</li>
+                        <li>Découvrir la mise en page responsive avec CSS3 pour assurer une expérience utilisateur adaptée sur tous les appareils</li>
+                        <li>Créer un design moderne et esthétique en utilisant les fonctionnalités avancées de CSS (flexbox, grid, animations)</li>
+                        <li>Expérimenter avec des animations et transitions pour améliorer l'interactivité du site</li>
+                        <li>Découvrir le travail en équipe sur un projet web concret en respectant les contraintes du cahier des charges</li>
+                    </ul>
+                    <button class="btn-details" data-competence="dev-web">Voir plus</button>
+                </div>
+            </div>
+
+            <div id="programmation" class="competence-item right">
+                <div class="competence-content">
+                    <h3>Programmation</h3>
+                    <p>Apprentissage des concepts fondamentaux de programmation et des algorithmes. Dans le cadre d'une SAE, j'ai développé un pauvocodeur en Java, un outil de traitement sonore, ce qui m'a permis de :</p>
+                    <ul>
+                        <li>Découvrir et implémenter des algorithmes de traitement du signal audio en Java</li>
+                        <li>Apprendre les structures de données et les algorithmes fondamentaux</li>
+                        <li>Développer une application avec une interface utilisateur en utilisant les bibliothèques Java</li>
+                        <li>Explorer la manipulation et le traitement de fichiers audio avec les API Java</li>
+                        <li>Comprendre les principes de la programmation orientée objet en Java</li>
+                    </ul>
+                    <button class="btn-details" data-competence="programmation">Voir plus</button>
+                </div>
+            </div>
+
+            <div id="bdd" class="competence-item left">
+                <div class="competence-content">
+                    <h3>Bases de données</h3>
+                    <p>Découverte des concepts fondamentaux des bases de données relationnelles et de leur intégration dans des applications web. Dans le cadre d'une SAE, j'ai participé au développement d'un site e-commerce, ce qui m'a permis de :</p>
+                    <ul>
+                        <li>Apprendre à concevoir et implémenter une base de données SQL pour gérer les articles</li>
+                        <li>Développer des requêtes SQL pour la gestion des données produits</li>
+                        <li>Explorer l'intégration de Python avec SQL pour créer une API REST</li>
+                        <li>Découvrir la gestion de données pour le e-commerce</li>
+                        <li>Comprendre l'importance de la cohérence des données</li>
+                    </ul>
+                    <button class="btn-details" data-competence="bdd">Voir plus</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Modal pour les compétences -->
+        <div id="competence-modal" class="modal">
+            <div class="modal-content">
+                <span class="close-modal">&times;</span>
+                <div class="modal-image">
+                    <img src="img/placeholder.jpg" alt="Image de la compétence" id="modal-img">
+                </div>
+                <div class="modal-text">
+                    <h2 id="modal-title"></h2>
+                    <div id="modal-description"></div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 - Tous droits réservés</p>
+    </footer>
+
+    <script>
+        const burgerIcon = document.querySelector('.burger-icon');
+        const sideMenu = document.querySelector('.side-menu');
+        const closeMenu = document.querySelector('.close-menu');
+
+        burgerIcon.addEventListener('click', function() {
+            sideMenu.classList.add('active');
+            burgerIcon.style.display = 'none';
+        });
+
+        closeMenu.addEventListener('click', function() {
+            sideMenu.classList.remove('active');
+            burgerIcon.style.display = 'flex';
+        });
+
+        // Fermer le menu quand on clique sur un lien
+        document.querySelectorAll('.side-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                sideMenu.classList.remove('active');
+                burgerIcon.style.display = 'flex';
+            });
+        });
+
+        // Gestion de la modal des compétences
+        const modal = document.getElementById('competence-modal');
+        const closeModal = document.querySelector('.close-modal');
+        const modalTitle = document.getElementById('modal-title');
+        const modalDescription = document.getElementById('modal-description');
+        const modalImg = document.getElementById('modal-img');
+
+        const competenceDetails = {
+            'dev-web': {
+                title: 'Développement Web',
+                description: `Le développement web est un domaine que j'explore avec enthousiasme. Mon expérience avec le projet Deezer m'a permis de découvrir l'importance de la conception centrée utilisateur et de l'accessibilité web.
+
+                Ce projet consistait à créer un site web présentant l'entreprise Deezer, avec plusieurs pages spécifiques :
+                - Une page Histoire retraçant l'évolution de l'entreprise
+                - Une page À propos présentant l'entreprise et ses valeurs
+                - Une page Économie détaillant le modèle économique de Deezer
+
+                Le projet était encadré par un cahier des charges strict qui définissait :
+                - La structure et le contenu de chaque page
+                - Les fonctionnalités requises
+                - Les contraintes techniques et de design
+                - Les délais à respecter
+
+                Un aspect important du projet était la création d'un design moderne et esthétique :
+                - Utilisation de Flexbox et Grid pour des mises en page complexes
+                - Création d'animations fluides et de transitions élégantes
+                - Mise en place d'une palette de couleurs cohérente
+                - Design responsive adapté à tous les appareils
+                - Optimisation de l'expérience utilisateur
+
+                J'ai pu explorer :
+                - La création de layouts responsifs
+                - L'optimisation des performances
+                - L'implémentation d'animations
+                - La gestion des interactions
+                
+                Ces apprentissages sont essentiels pour créer des expériences web engageantes et respecter les contraintes d'un projet professionnel.`
+            },
+            'programmation': {
+                title: 'Programmation Java',
+                description: `La programmation en Java a été au cœur de mon projet de pauvocodeur, un outil de traitement audio. Cette expérience m'a permis d'explorer :
+
+                - Les concepts de base de la POO
+                - La gestion des threads
+                - L'optimisation des performances
+                - Le traitement des signaux audio
+                
+                Ce projet m'a aidé à mieux comprendre les algorithmes et leur implémentation.`
+            },
+            'bdd': {
+                title: 'Bases de Données',
+                description: `Mon apprentissage des bases de données relationnelles s'est concrétisé dans le développement d'un site e-commerce. J'ai pu découvrir :
+
+                - La conception de schémas de base de données
+                - L'écriture de requêtes SQL
+                - L'intégration avec Python
+                - La gestion des transactions
+                
+                Ces connaissances sont importantes pour le développement d'applications.`
+            }
+        };
+
+        document.querySelectorAll('.btn-details').forEach(button => {
+            button.addEventListener('click', () => {
+                const competence = button.getAttribute('data-competence');
+                const details = competenceDetails[competence];
+                
+                modalTitle.textContent = details.title;
+                modalDescription.innerHTML = details.description.replace(/\n/g, '<br>');
+                modalImg.src = competence === 'dev-web' ? 'img/traceweb.png' : `img/${competence}.jpg`;
+                
+                modal.style.display = 'flex';
+                document.body.style.overflow = 'hidden';
+            });
+        });
+
+        closeModal.addEventListener('click', () => {
+            modal.style.display = 'none';
+            document.body.style.overflow = 'auto';
+        });
+
+        window.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+                document.body.style.overflow = 'auto';
+            }
+        });
+    </script>
+</body>
+</html> 
